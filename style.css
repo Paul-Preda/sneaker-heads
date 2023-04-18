@@ -1,29 +1,58 @@
-/* Write Your CSS Below 
-Colors: 
-- rgb(243, 183, 106)
-- yellow
-- rgb(241, 117, 0)
-- red
-- #f3b76a
-- #f17500
-- #0d6e00
-- #6d00fb
-- #dbff39
-- #74c9f1
-- #fb4040
+#heads{
+    text-align: center;
+    padding: 10px;
+    border: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(#74c9f1,#fb4040);
+    color: #6d00fb;
+    text-decoration: underline;
+}
 
-Sizes: 
-- 100%
-- 70%
-- auto
-- 1.5em
-- 3rem
-- .5em
+body{
+    background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-Font: 
-- Copperplate (You can also use any font that you'd like!)
+#jordans-1{
+    height: 400px;
+    width: 600px;
+    float: left;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 5px 3px 3px;
+    color: #6d00fb;
+}
 
-Images: 
-- "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
-    - (You may use any image you would like for the background!)
-*/
+#jordans-2{
+    height: 400px;
+    width: 600px;
+    float: right;
+    margin: 0 auto;
+    box-shadow: -5px 3px 3px;
+    color: red;
+}
+
+
+#jordans-1-desc {
+    color: white;
+    text-align: justify;
+    width: 600px;
+    float: left;
+    padding: 10px 5px;
+    border-radius: 20px;
+    background-color: #74c9f1;
+    text-decoration: none;
+}
+
+#jordans-2-desc{
+    color: white;
+    text-align: justify;
+    width: 600px;
+    float: right;
+    padding: 10px 5px;
+    border-radius: 20px;
+    background-color: #fb4040;
+    text-decoration: none;
+
+}
